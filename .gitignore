@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Data, checkpoints, vector indexes, and generated experiments
+data/
+models/
+runtime_logs/
+outputs/
+*.npy
+*.index
+
+# Local files and editor state
+*.log
+.DS_Store
+.vscode/
+.idea/
+
