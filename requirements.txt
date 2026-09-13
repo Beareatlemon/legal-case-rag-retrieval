@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn==0.34.0
+streamlit==1.42.0
+pydantic==2.10.6
+python-dotenv==1.0.1
+pandas>=2.0,<3.0
+requests>=2.27,<3.0
+datasets>=2.19,<4.0
+huggingface-hub>=0.24,<1.0
+numpy>=1.26,<3.0
+faiss-cpu>=1.13,<2.0
+sentence-transformers>=3.0,<4.0
+torch>=2.0
+tqdm>=4.66,<5.0
+accelerate>=0.26,<2.0
+omegaconf>=2.3,<3.0
+
